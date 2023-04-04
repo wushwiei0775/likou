@@ -11,7 +11,7 @@ int swap_array_value(int *a,int *b)
 }
 
 /*QuickSort*/
-//注意，该函数使用了递归，请小心你的堆栈空间的大小、空间复杂度
+//注意，该函数使用了递归，请小心你的堆栈空间的大小、空间复杂度dd
 int quick_sort(int left,int right,int arr[])
 {
     int i = left;        //记录需要排序的区间范围
